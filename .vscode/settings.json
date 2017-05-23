@@ -1,0 +1,9 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "files.autoSave": "off",
+    // Controls if Quick Open should close automatically once it loses focus.
+    "workbench.quickOpen.closeOnFocusLost": true,
+    "window.zoomLevel": 0,
+    "http.proxy": "http://kagajjar:Shakalaka1522@proxyauult.global.law:80/",
+    "https.proxy": "http://kagajjar:Shakalaka1522@proxyauult.global.law:80/"
+}
