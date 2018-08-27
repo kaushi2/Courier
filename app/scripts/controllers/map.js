@@ -8,7 +8,7 @@
  * Controller of the courierApp
  */
 angular.module('courierApp')
-  .controller('MapCtrl', function () {
+  .controller('MapCtrl', function ($scope) {
     /*
     // Get From Database
     $scope.Providers = function GetProviders() {
@@ -51,8 +51,8 @@ angular.module('courierApp')
         options: {} 
       }
     };
-    uiGmapGoogleMapApi.then(function (maps) {
+    /*uiGmapGoogleMapApi.then(function (maps) {
         // offset to fit the custom icon
         //$scope.map.window.options.pixelOffset = new google.maps.Size(0, -35, 'px', 'px');
-    });    
+    });    */
   });

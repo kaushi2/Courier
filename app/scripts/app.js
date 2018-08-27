@@ -15,8 +15,7 @@ angular
     'ngResource',
     'ngRoute',
     'ngSanitize',
-    'ngTouch',
-    'uiGmapgoogle-maps'
+    'ngTouch'
   ])
   .config(function ($routeProvider,$locationProvider) {
     $locationProvider.hashPrefix('');
@@ -38,7 +37,7 @@ angular
       })
       .when('/register', {
         templateUrl: 'views/register.html',
-        controller: 'registerCtrl',
+        controller: 'RegisterCtrl',
         controllerAs: 'register'
       })
       .when('/about', {
